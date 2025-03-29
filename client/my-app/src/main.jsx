@@ -1,10 +1,10 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import { ContextProvider } from "./context/Context.jsx";
+import { ContextProvider } from "./context/ContextApi.jsx";
 
 createRoot(document.getElementById("root")).render(
-    <ContextProvider>
+  <ContextProvider>
     <App />
-    </ContextProvider>
+  </ContextProvider>
 );
